@@ -1,0 +1,44 @@
+.todo-item-list-div {
+  display: flex;
+}
+
+.todo-list-item-li {
+  width: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(68, 63, 63, 0.25);
+  /* border: solid 2px yellow; */
+}
+
+.toggleDone {
+  text-decoration: line-through;
+  color: rgb(123, 128, 128);
+  font-weight: normal;
+}
+
+.toggleImp {
+  font-size: 26px;
+  font-weight: bold;
+}
+.material-icons {
+  margin-left: 20px;
+}
+
+.material-icons.done {
+  color: rgb(119, 119, 117);
+}
+
+.material-icons.imp {
+  color: rgb(243, 233, 95);
+}
+
+.material-icons.del {
+  color: rgb(243, 105, 95);
+}
+
+.material-icons:hover {
+  cursor: pointer;
+  transform: scale(0.7);
+  transition: ease-in-out 0.2s;
+}

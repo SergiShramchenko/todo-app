@@ -1,0 +1,21 @@
+.input-div {
+  /* border: solid 2px blue; */
+  margin-top: 40px;
+  text-align: center;
+}
+
+.search-panel {
+  width: 62%;
+  height: 40px;
+  background-color: rgb(247, 252, 252);
+  border: none;
+  outline: none;
+  /* border: solid 2px tomato; */
+}
+.search-panel:focus {
+  border-bottom: 1px dashed black;
+}
+
+.search-panel::placeholder {
+  padding-left: 16px;
+}

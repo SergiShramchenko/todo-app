@@ -1,0 +1,43 @@
+.add-item-div {
+  /* border: solid 2px blue; */
+  text-align: center;
+  padding-bottom: 80px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-item-input {
+  /* border: solid 2px tomato; */
+  width: 38%;
+  height: 28px;
+  border: none;
+  border-radius: 2px;
+}
+
+.add-item-input::placeholder {
+  padding-left: 16px;
+}
+.add-item-btn {
+  border: none;
+  width: 8%;
+  height: 26px;
+  margin-left: 8px;
+  background-color: rgb(135, 209, 147);
+  font-size: 14px;
+  font-family: 'Luckiest Guy', cursive;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+}
+.add-item-btn:hover {
+  cursor: pointer;
+  background-color: rgb(245, 139, 139);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+}
+
+@media (min-height: 680px) {
+  .add-item-btn {
+    font-size: 14px;
+    height: 34px;
+  }
+}

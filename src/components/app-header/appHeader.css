@@ -1,0 +1,20 @@
+.h1-div {
+  /* border: solid 2px blue; */
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: 'Fredericka the Great', cursive;
+  letter-spacing: 2px;
+  /* border: solid 2px tomato; */
+}
+
+.h1-version {
+  font-size: 14px;
+  font-family: 'Asap', sans-serif;
+}
